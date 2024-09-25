@@ -125,7 +125,3 @@ end
 
 
 capacitance_matrix(sim::Simulation) = calculate_capacitance_matrix(sim)
-function capacitance_matrix(sim::SigGenSetup) 
-    c = sim.capacitance * u"pF"
-    [c -c; -c c]
-end

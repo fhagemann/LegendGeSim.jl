@@ -24,7 +24,6 @@ using LegendDataTypes
 using LegendHDF5IO
 using LegendTextIO
 using LinearAlgebra
-using MJDSigGen
 using Parameters
 using Polynomials
 using PropDicts
@@ -82,8 +81,5 @@ include("pet_to_raw.jl")
 
 include("waveform_utils.jl")
 include("temp_utils.jl")
-include("mjdsiggen_utils.jl")
-
-
 
 end # module

@@ -19,7 +19,6 @@ LegendHDF5IO = "c9265ca6-b027-5446-b1a4-febfa8dd10b0"
 LegendTextIO = "c397c909-374d-579b-8af3-fa3aa4f02e89"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
-MJDSigGen = "0b925020-e659-485c-98dd-189633cb4be4"
 Parameters = "d96e819e-fc66-5662-9728-84c9c7592b0a"
 Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 PropDicts = "4dc08600-4268-439e-8673-d706fafbb426"
@@ -39,6 +38,9 @@ StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
 Tables = "bd369af6-aec1-5ad0-b16a-f7cc5008161c"
 TypedTables = "9d95f2ec-7b3d-5a63-8d20-e2491e220bb9"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[weakdeps]
+MJDSigGen = "0b925020-e659-485c-98dd-189633cb4be4"
 
 [compat]
 ArgCheck = "1, 2"
@@ -76,3 +78,6 @@ Tables = "1"
 TypedTables = "1.2"
 Unitful = "1"
 julia = "1.9"
+
+[extension]
+LegendGeSimMJDSigGen = "MJDSigGen"

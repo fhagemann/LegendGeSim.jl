@@ -5,6 +5,7 @@ using Test
 using LegendGeSim
 using LegendHDF5IO, HDF5
 using LegendTestData
+using MJDSigGen
 using Unitful
 
 
